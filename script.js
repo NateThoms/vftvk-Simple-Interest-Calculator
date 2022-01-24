@@ -30,14 +30,14 @@ function compute() {
   //as well as adding a reset button
   else {
     document.getElementById("maindiv").innerHTML =
-      "If you Invest $" +
+      "If you Invest <span class='yellowtext'>$" +
       principal +
-      "<br><br>With an interest rate of " +
+      "</span><br><br>With an interest rate of <span class='yellowtext'>" +
       rate +
-      "% <br><br> You will receive $" +
+      "%</span><br><br> You will receive <span class='yellowtext'>$" +
       interest +
-      "<br><br> in the year " +
+      "</span><br><br> in the year <span class='yellowtext'>" +
       year +
-      "<br><br><button onClick='window.location.reload();'>Reset</button> <br><br><footer>This calculator is the intellectual property of Everyone Can Get Rich NGO © 2022</footer>";
+      "</span><br><br><button onClick='window.location.reload();'>Reset</button> <br><br><footer>This calculator is the intellectual property of Everyone Can Get Rich NGO © 2022</footer>";
   }
 }

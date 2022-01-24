@@ -11,6 +11,9 @@ footer {
   color: slategrey;
   font-size: small;
 }
+.yellowtext {
+  color: orange;
+}
 #maindiv {
   background-color: white;
   color: black;
